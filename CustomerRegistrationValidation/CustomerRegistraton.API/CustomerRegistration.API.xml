@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CustomerRegistration.API</name>
+    </assembly>
+    <members>
+        <member name="T:CustomerRegistration.API.Controllers.CustomerRegistrationController">
+            <summary>
+            Controller for handling requests to register a customer
+            </summary>
+        </member>
+        <member name="M:CustomerRegistration.API.Controllers.CustomerRegistrationController.RegisterCustomer(CustomerRegistration.Models.RequestModels.CustomerRegistrationRequest)">
+            <summary>
+            Attempts to register a user from the details in <paramref name="request"/>
+            </summary>
+            <param name="request"></param>
+            <returns>a <see cref="T:CustomerRegistration.Models.ResponseModels.CustomerRegistrationResponse"/> with the Customer Id if they were successfully registered else a list of the validation errors which occurred.</returns>
+        </member>
+    </members>
+</doc>

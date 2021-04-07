@@ -1,4 +1,4 @@
-﻿namespace RegistrationValidation.Models.ResponseModels
+﻿namespace CustomerRegistration.Models.ResponseModels
 {
 
 	/// <summary>
