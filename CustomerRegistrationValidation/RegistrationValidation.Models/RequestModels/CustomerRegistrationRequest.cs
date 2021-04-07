@@ -9,7 +9,7 @@ namespace RegistrationValidation.Models.RequestModels
 
 		public string ReferenceNumber { get; set; }
 
-		public DateTime DateOfBirth { get; set; }
+		public DateTime? DateOfBirth { get; set; }
 
 		public string Email { get; set; }
 
